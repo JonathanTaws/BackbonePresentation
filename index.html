@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Backbone</title>
+		<title>Quick Backbone presentation</title>
 
 		<meta name="description" content="Slides of the quick presentation of the JavaScript framework Backone">
 		<meta name="author" content="Jordan Martin, Léon Mangeat, Jonathan Taws">
@@ -41,7 +41,7 @@
 					<h1> Backbone.js </h1>
 				</section>
 				
-				<section>
+				<section data-transition="zoom">
 					<p><i><b><font size="20">" </font></b>Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface. <b><font size="20">" </font></b></i></p> 
 					<img src="img/backbone-logo.png">
 					<p> Created by Jeremy Ashkebas in 2010 </p>
@@ -64,7 +64,7 @@
 					<section data-transition="zoom">
 						<h3> Only depends on one library </h3> <br>
 						<h3> <b>Underscore.js </b></h3> <br>
-						<h4> plus <i>jQuery</i> or <i>Zepto</i> </h4> <br>
+						<h4> plus <i>jQuery</i>  or <i>Zepto</i> </h4> <br>
 						<p> Super lightweight ! </p>
 					</section>
 				</section>
@@ -74,7 +74,7 @@
 						<!-- Model, View layers, plus some extra features !-->
 						</section>
 						<section>
-							<!-- Image MV DOM !-->
+							<img src="img/mv-star-concept.png">
 							<!-- A model stores the data and processes it, the View will represents the visual aspect of the model . Backbone includes the C of regular MVC frameworks in it's view -->
 						</section>
 						
@@ -93,30 +93,27 @@
 						</section>
 						<section>
 							<h2> Collections </h2> <br>
-							<p> Collections are containers that group all the models together </p>
+							<p> Collections are containers that gather all the models together </p>
 							<p> You can handle and manage your models from a Collection</p>
 						</section>
 				</section>
 				
 				<section>
-					<section>
+					<section data-transition="concave">
 						<h1> The structure </h1>
 					</section>
 					<section>
 						<p> A page is "just" a div </p> <br>
 						<img src="img/div-page.png">
 					</section>
-					<section>
+					<section data-transition="concave">
 						<p> To navigate in the page, you call routing functions </p> <br>
 						<img src="img/routing.png">
-						<p> Those functions dynamically change the url of the page without reloading</p>
+						<p> These functions dynamically change the url of the page without reloading</p>
 					</section>
-					<section>
+					<section data-transition="concave">
 						<h3> Web Application structure </h3> <br>
 						<img src="img/structure.png">
-					</section>
-					<section>
-						
 					</section>
 				</section>
 				
@@ -137,6 +134,7 @@
 					<ul>
 						<li>Not for a website that only shows data </li><br>
 						<li>Single-page apps don't work well with old browsers</li><br>
+						<li> A lot of coding required (or extensive use of plug-ings) -> "No magic" </li> <br>
 						<li>Client-code becomes quite "heavy" </li>
 					</ul>
 				</section>
@@ -164,10 +162,30 @@
 						<img src="img/size.png">
 					</section>
 					<section>
-						<h2> Backbone versus Ember </h2>
-						<p> Backbone is more explicit and less magical </p>
+						<h2> Performance </h2>
+						<p>Animating 100 circles : Backbone and AngularJS fastest, Ember quite slow </p>
+						<p>Backbone lets you do all the DOM manipulation, whereas AngularJS does it all for you </p>
+						<!-- Subjective, an app performance with Backbone is based on how well you can do dom manipulation !-->
+					<section>
+						<h2> Community and plug-ins </p>
+						<p> Backbone is community is simply huge, it's the biggest of all JS libraries </p>
+						<p> A lot of plug-ins </p>
+					</section>
+					</section>
+					<section>
+						<h2> Backbone versus Ember </h2> <br>
+						<p> Backbone is more <font color="17A4B2">explicit </font color> and less <font color="FFAB6E">magical</font color> </p>
 						<p> Ember automatically updates its views when data changes </p>
 					</section>
+				</section>
+				
+				<section>
+					<h3> Thanks for your attention ! </h3>
+					<p> Created by Jordan Martin, Jonathan Taws, and Léon Mangeat </p>
+				</section>
+				
+				<section data-transition="fade">
+					<img src="img/backbone-logo.png">
 				</section>
 				
 			</div>
